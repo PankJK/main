@@ -14,3 +14,4 @@ function calc(func, a, b) {
   console.log(calc("add", 1, 2));
   console.log(calc("multi", 1, 2));
   console.log(calc("subtract", 3, 2));
+  alert ("I did it")

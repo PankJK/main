@@ -4,7 +4,7 @@ function calc(func, a, b) {
         return +a + +b;
       case "multi":
         return a * b;
-      case "sub":
+      case "subtract":
         return a - b;
   
       default:
@@ -14,4 +14,4 @@ function calc(func, a, b) {
   console.log(calc("add", 1, 2));
   console.log(calc("multi", 1, 2));
   console.log(calc("subtract", 3, 2));
-  alert ("I did it")
+  console.log("I did it")
